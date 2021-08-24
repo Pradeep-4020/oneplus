@@ -1,0 +1,326 @@
+*{
+    box-sizing: content-box;
+}
+
+.heading{
+    background-image: url(./assets/logos/oneplus.png);
+    height: 20vh;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 20%;
+    background-attachment: fixed;
+}
+
+header{
+    background: white;
+}
+
+nav, footer{
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+
+nav a, footer a{
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    height: 19px;
+    text-decoration: none;
+    transition: color 0s, background-color 1s, border-radius 1s;
+}
+
+nav a:hover, footer a:hover{
+    color: red;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.alignright{
+    margin-left: auto;
+}
+
+.latest{
+    position: relative;
+    padding: 10px;
+    text-align: left;
+    font-size: x-large;
+    transition: background 1s, color 1s, text-align 1s, border-radius 2s;
+}
+
+.latest:hover{
+    background: black;
+    color: red;
+    text-align: center;
+    border-radius: 25%;
+}
+
+.carousel_1{
+    position: relative;
+    background: black;
+}
+
+.carousel-cell1{
+background: white;
+}
+
+.carousel-cell1_6{
+    background: white;
+    padding: 100px 0px 100px 0px;
+}
+
+.carousel-cell1_7{
+    background: white;
+    padding: 346px 20px 346px 50px;
+}
+
+h2:hover{
+    border-radius: 50%;
+    background-color: black;
+}
+
+.oneplus9pro{
+    color: rgb(255, 70, 70);
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    font-family: Kaushan Script;
+}
+
+.oneplus9{
+    color: rgb(255, 70, 70);
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    font-family: Kaushan Script;
+}
+
+.oneplus9r{
+    color: rgb(255, 70, 70);
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    font-family: Kaushan Script;
+}
+
+.oneplus8pro{
+    color: rgb(255, 70, 70);
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    font-family: Kaushan Script;
+}
+
+.oneplus8{
+    color: rgb(255, 70, 70);
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    font-family: Kaushan Script;
+}
+
+.oneplus8t{
+    color: rgb(255, 70, 70);
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    font-family: Kaushan Script;
+}
+
+.oneplusnord{
+    color: rgb(255, 70, 70);
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    font-family: Kaushan Script;
+}
+
+.carousel_2{
+    background: black;
+}
+
+.carousel-cell2{
+    width: 600px;
+    height: 250px;
+    background: white;
+}
+
+iframe{
+    height: 300px;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.carousel_3{
+    position: relative;
+    background: black;
+}
+
+.existing{
+    position: relative;
+    padding: 10px;
+    text-align: left;
+    font-size: x-large;
+    transition: background 1s, color 1s, text-align 1s, border-radius 2s;
+}
+
+.existing:hover{
+    background: black;
+    color: red;
+    text-align: center;
+    border-radius: 25%;
+}
+
+.maingrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    background: black;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.nested-grid{
+    background: white;
+    border: 2px solid red;
+}
+
+.oneplusbuds{
+    text-align: center;
+    font-family: Kaushan Script;
+    margin-top: 5%;
+    margin-left: 37%;
+    margin-right: 37%;
+}
+
+#buds{
+    text-decoration: none;
+    color: rgb(255, 70, 70);
+}
+
+.oneplusbudsz{
+    text-align: center;
+    font-family: Kaushan Script;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#budsz{
+    text-decoration: none;
+    color: rgb(255, 70, 70);
+}
+
+.oneplustvy{
+    text-align: center;
+    font-family: Kaushan Script;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#tvy{
+    text-decoration: none;
+    color: rgb(255, 70, 70);
+}
+
+.onepluswatch{
+    text-align: center;
+    font-family: Kaushan Script;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#watch{
+    text-decoration: none;
+    color: rgb(255, 70, 70);
+}
+
+.oneplusbag{
+    text-align: center;
+    font-family: Kaushan Script;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#bag{
+    text-decoration: none;
+    color: rgb(255, 70, 70);
+}
+
+.onepluspb{
+    text-align: center;
+    font-family: Kaushan Script;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#pb{
+    text-decoration: none;
+    color: rgb(255, 70, 70);
+}
+
+.designlogo{
+    text-align: center;
+    transition: background 3s;
+}
+
+.designlogo:hover{
+    background: black;
+}
+
+.logo{
+    transition: border-radius 2s;
+}
+
+.logo:hover{
+    border-radius: 50%;
+}
+
+.socialmedia{
+    text-align: center;
+}
+
+.socialmedia a{
+    text-decoration: none;
+    background-color: rgb(125 125 125 / 25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    transition: background-color 2s;
+}
+
+.socialmedia a:hover{
+    background-color: black;
+}
+
+.socialmedia a i{
+    margin: 5px;
+}
+
+.twitter{
+    color: rgb(29 161 242);
+}
+
+.youtube{
+    color: rgb(255 0 0);
+}
+
+.instagram{
+    color: #db2a7b;
+}
+@media screen and (max-width: 650px){
+    nav, footer{
+        flex-direction: column;
+    }
+    .alignright{
+        margin-left: 0;
+    }
+}
+
